@@ -22,8 +22,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="6362382346"
-KEY="6957696048:AAF3X-t1tlDYltP2NBzdjInEIPRMAcc6lTM"
+CHATID="1205633026"
+KEY="6969160800:AAFU4ac8peHHbEBYKHdKy-CxurN_hsLwoKE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
@@ -279,7 +279,7 @@ TEXT="
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/XsSmilanSsX"},{"text":"Contack","url":"https://wa.me/6281280896074"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"CHANNEL","url":"https://t.me/smilans"},{"text":"GRUP","url":"https://t.me/vpn_injectorid"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
